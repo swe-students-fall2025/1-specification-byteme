@@ -16,7 +16,7 @@ See instructions. Delete this line and replace with the name(s) of the stakehold
 
 ## Product Vision Statement
 
-For adopters and shelters frustrated by scattered listings and slow communication, **PupMatch** is a mobile app that streamlines communication and makes pet adoption faster and easier.
+For adopters and shelters frustrated by scattered listings and slow communication, **Petport** is a mobile app that streamlines communication and makes pet adoption faster and easier.
 
 ## User Requirements
 
