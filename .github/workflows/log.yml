@@ -1,0 +1,32 @@
+name: log github events
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run gitcommitlogger safely
+        if: ${{ !github.event.pull_request.head.repo.fork }}   # secrets are NOT available on forks
+        env:
+          REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+          PR_CREATED_AT: ${{ github.event.pull_request.created_at }}
+          GITHUB_LOGIN: ${{ github.event.pull_request.user.login }}
+          COMMIT_LOG_API: ${{ secrets.COMMIT_LOG_API }}         # set this in repo Settings → Secrets
+        run: |
+          set -euo pipefail
+          args=( -r "$REPOSITORY_URL" -t pull_request_opened -d "$PR_CREATED_AT" -un "$GITHUB_LOGIN" -o commit_stats.csv -v )
+          if [ -n "${COMMIT_LOG_API:-}" ]; then
+            args+=( -u "$COMMIT_LOG_API" )
+          else
+            echo "COMMIT_LOG_API not set; running without -u"
+          fi
+          pipenv run gitcommitlogger "${args[@]}"
+
