@@ -28,4 +28,10 @@ See instructions. Delete this line and place images of your UML Activity diagram
 
 ## Clickable Prototype
 
-See instructions. Delete this line and place a publicly-accessible link to your clickable prototype here.
+The wireframe diagrams outline a user-friendly pet adoption app built around a standard bottom navigation bar (Home, Favorites, Messages, Profile). The core flow allows users to browse pets on the home screen, filter by species, view detailed profiles, and submit an adoption application, culminating in a confirmation screen. The design focuses on clarity and ease of use.
+
+
+![wireframe](wireframe.png)
+
+Experience the full user flow and interact with every screen through our [clickable prototype](https://www.figma.com/proto/LVHAVQ2Y52o2i5guBrtj5d/SWE-project-1-wireframe?node-id=4-12&p=f&t=q0jvsskKfnVIZdwh-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A12)
+
