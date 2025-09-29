@@ -211,6 +211,28 @@ For adopters and shelters frustrated by scattered listings and slow communicatio
 
 ## Activity Diagrams
 
+## Wireframes
+
+Low-fidelity, grayscale, component-driven wires that define structure and flow (not visual polish).
+
+**Screens included:**
+- Onboarding
+- Home / Browse (search + chips)
+- Dogs / Cats / SmallPet / NearMe (species tabs)
+- Pet Details (photos, bio, tags, shelter info; CTAs: Save / Message / Schedule / Apply)
+- Application (multi-step form)
+- Application Submitted (success)
+- Favorites (list)
+- Pet Favorite Detail
+- Messages (inbox) and Chat (thread + composer)
+- Profile & Settings
+- Location Preferences
+
+**Preview images:**
+![Home](./assets/home.png)
+![Pet Details](./assets/pet-details.png)
+
+
 ## Diagrams
 
 ### User Story 1  
