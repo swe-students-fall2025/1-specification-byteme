@@ -4,11 +4,11 @@ A little exercise to get started with the specification phase of the software de
 
 ## Team members
 
-* [Jasmine Zhu](https://github.com/jasminezjr)
-* [Esther Feng](https://github.com/yf2685-beep)
-* [Eason Huang](https://github.com/GILGAMESH605)
-* [Majo Salgado](https://github.com/mariajsalgadoq)
-* [Matthew Zhou](https://github.com/mzhou3299)
+* [Jasmine Zhu](https://github.com/jasminezjr) - Clickable Prototype
+* [Esther Feng](https://github.com/yf2685-beep) - Product Vision Statement + User Requirements
+* [Eason Huang](https://github.com/GILGAMESH605) - Wireframe Diagrams
+* [Majo Salgado](https://github.com/mariajsalgadoq) - Stakeholder Interview
+* [Matthew Zhou](https://github.com/mzhou3299) - UML Activity Diagrams
 
 ## Stakeholders
 
